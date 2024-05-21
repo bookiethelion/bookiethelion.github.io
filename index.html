@@ -1,46 +1,77 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="portafolio, desarrollo web, frontend">
-        <meta name="description" content="Este será mi portafolio">
-        <meta name="author" content="Antonio León">
-        <meta name="robots" content="">
-        <meta name="OG: title" content="">
-        <meta name="OG: image" content="">
-        <meta name="OG: description" content="">
-        <link rel="icon" href="assets/icon.jpeg" type="image/jpeg">
-        <link rel="stylesheet" href="css/styles.css">
-        <title>Portafolio</title>
-    </head>
-    <body>
-        <h1>Hola a todos, este será mi portafolio.</h1>
-        <h2>Toda crítica (contructiva o destructiva) es bienvenida para seguir mejorando.</h2>
-        <h3>Bienvenida, Dua Lipa.</h3>
-        <section>
-            <h3>Primeras mini webs (no responsive)</h3>
-            <a href="https://bookiethelion.github.io/luisjoseprofesor-html-css-e1/" target="_blank">Web random</a>
-            <a href="https://bookiethelion.github.io/platzi-practica-html-css/" target="_blank">Clon de Google</a>
-            <a href="https://bookiethelion.github.io/ejercicio-clon-netflix/" target="_blank">Clon de Netflix</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="portafolio, desarrollo web, frontend">
+    <meta name="description" content="Este será mi portafolio">
+    <meta name="author" content="Antonio León">
+    <meta name="robots" content="">
+    <meta name="OG: title" content="">
+    <meta name="OG: image" content="">
+    <meta name="OG: description" content="">
+    <link rel="icon" href="img/icon.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <header class="container header">
+        <div class="header__container-bar">
+            <section class="header__logo-dev">
+                <figure class="header__logo-container">
+                    <img src="img/icon.jpeg" alt="" class="header__logo">
+                </figure>
+                <div class="header__titles">
+                    <h1 class="header__title-dev">Antonio León (BookieTheLion)</h1>
+                    <p>Web developer</p>
+                </div>
+            </section>
+            <nav class="nav">
+                <ul class="nav__items">
+                    <li class="nav__item"><a href="#" class="nav__link">Sobre mí</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Tecnologías</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Proyectos</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contáctame</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="header__presentation-grid">
+            <figure class="header__photo-container">
+                <img src="img/pool-profile.jpg" alt="" class="header__photo">
+            </figure>
+            <h2 class="header__presentation-text">Toda crítica (contructiva o destructiva) es bienvenida para seguir mejorando.</h2>
         </section>
-        <section>
-            <h3>Frontend challenges</h3>
-            <a href="https://bookiethelion.github.io/tarjetapool1/" target="_blank">Tarjeta 1</a>
-            <a href="https://bookiethelion.github.io/tarjetapool2/" target="_blank">Tarjeta 2</a>
-            <a href="https://bookiethelion.github.io/tarjeta-triple/" target="_blank">Tarjeta 3</a>
+    </header>
+
+    <main class="container main">
+        <section class="main__projects">
+            <div>
+                <h3>Primeras mini webs (no responsive)</h3>
+                <ul>
+                    <li><a href="https://bookiethelion.github.io/luisjoseprofesor-html-css-e1/" target="_blank">📌 Web random</a></li>
+                    <li><a href="https://bookiethelion.github.io/platzi-practica-html-css/" target="_blank">📌 Clon de Google</a></li>
+                    <li><a href="https://bookiethelion.github.io/ejercicio-clon-netflix/" target="_blank">📌 Clon de Netflix</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Frontend challenges (no responsive)</h3>
+                <li><a href="https://bookiethelion.github.io/tarjetapool1/" target="_blank">📌 Tarjeta 1</a></li>
+                <li><a href="https://bookiethelion.github.io/tarjetapool2/" target="_blank">📌 Tarjeta 2</a></li>
+                <li><a href="https://bookiethelion.github.io/tarjeta-triple/" target="_blank">📌 Tarjeta 3</a></li>
+            </div>
+            <div>
+                <h3>Primeras landings</h3>
+                <li><a href="https://bookiethelion.github.io/grid-web-1/" target="_blank">📌 Portafolio</a></li>
+                <li><a href="https://bookiethelion.github.io/grid-web-2/" target="_blank">📌 Grid web</a></li>
+                <li><a href="https://bookiethelion.github.io/grid-web-3/" target="_blank">📌 Web restaurante</a></li>
+                <li><a href="/proyectos/portafolio2/index.html" target="_blank">📌 Portafolio 2</a></li>
+            </div>
         </section>
-        <section>
-            <h3>Primeras landings</h3>
-            <a href="https://bookiethelion.github.io/grid-web-1/" target="_blank">Portafolio</a>
-            <a href="https://bookiethelion.github.io/grid-web-2/" target="_blank">Grid web</a>
-            <a href="https://bookiethelion.github.io/grid-web-3/" target="_blank">Web restaurante</a>
-        </section>
-        <figure>
-            <img src="assets/perrito_bravo.png" alt="">
-        </figure>
-        <footer>
-            <p>Web desarrollada por BookieTheLion 2024</p>
-        </footer>
-    </body>
+    </main>
+
+    <footer class="container footer">
+        <p>Web desarrollada por BookieTheLion 2024</p>
+    </footer>
+</body>
 </html>
