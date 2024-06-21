@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <figure class="header__logo-container">
+            <a class="header__img-container" href="index.html">
+                <img class="header__img" src="img/logo.png" alt="">
+            </a>
+        </figure>
+        <nav class="nav">
+            <ul class="nav__items">
+                <li class="nav__item"><a class="nav__item-link" href="index.html">Tienda</a></li>
+                <li class="nav__item"><a class="nav__item-link" href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="producto-main">
+        <h1 class="producto-main__title">React JS</h1>
+        <section class="producto-main__container">
+            <figure class="producto-main__img-container">
+                <img class="producto-main__img" src="img/1.jpg" alt="Descripción de la imagen">
+            </figure>
+            <section class="producto-main__form-container">
+                <h2 class="producto-main__subtitle">Descripción del Producto</h2>
+                <p class="producto-main__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, natus facere. Optio, rerum excepturi. Molestias nihil placeat blanditiis quia culpa facere. Quae necessitatibus velit tempora doloremque, a hic ad ut?</p>
+                <form class="producto-main__form" action="">
+                    <fieldset class="producto-main__inputs-bottom">
+                        <div class="producto-main__inputs">
+                            <select class="producto-main__options producto-main__input" name="" id="">
+                                <option class="producto-main__option" value="" disable selected>-- Seleccionar talla --</option>
+                                <option class="producto-main__option" value="chica">Chica</option>
+                                <option class="producto-main__option" value="mediana">Mediana</option>
+                                <option class="producto-main__option" value="grande">Grande</option>
+                            </select>
+                            <input class="producto-main__cantidad producto-main__input" type="number" name="cantidad" id="cantidad" placeholder="Cantidad" min="0" step="1">
+                        </div>
+                        <button class="producto-main__button" type="button">Agregar al carrito</button>
+                    </fieldset>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Front-end Store - Todos los derechos reservados 2024.</p>
+    </footer>
+</body>
+</html>
