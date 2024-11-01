@@ -1,0 +1,44 @@
+/*SLIDER-TABLAS*/
+.segundo-bloque__tablas::-webkit-scrollbar {
+    height: none;
+}
+.segundo-bloque__tablas::-webkit-scrollbar-thumb {
+    background: none;
+    border-radius: none;
+}
+.segundo-bloque__tablas::-webkit-scrollbar-track {
+    background: none;
+    border-radius: none;
+}
+.segundo-bloque__tablas::-webkit-scrollbar-thumb:active {
+    background-color: none;
+}
+.segundo-bloque__tablas::-webkit-scrollbar-track:hover, .segundo-bloque__tablas::-webkit-scrollbar-track:active {
+    background: none;
+}
+/*BENEFICIOS*/
+.contenedor-beneficios {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tarjetas {
+    width: 45%;
+}
+/*SLIDER-PLANES*/
+.planes-slider::-webkit-scrollbar {
+    height: none;
+}
+.planes-slider::-webkit-scrollbar-thumb {
+    background: none;
+    border-radius: none;
+}
+.planes-slider::-webkit-scrollbar-track {
+    background: none;
+    border-radius: none;
+}
+.planes-slider::-webkit-scrollbar-thumb:active {
+    background-color: none;
+}
+.planes-slider::-webkit-scrollbar-track:hover, .planes-slider::-webkit-scrollbar-track:active {
+    background: none;
+}
